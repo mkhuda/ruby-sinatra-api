@@ -28,4 +28,7 @@ class App < Sinatra::Base
     my_hash['nomina_3'] = Indofix.check('nomina', 'meragukan')
     return my_hash
   end
+
+  get '/indofix_verba_only' do
+  end
 end
