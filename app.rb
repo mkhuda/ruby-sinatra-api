@@ -30,6 +30,7 @@ class App < Sinatra::Base
   end
 
   get '/indofix_verba_only' do
+    verba_hash = Hash.new
     return 'test verba'
   end
 end
