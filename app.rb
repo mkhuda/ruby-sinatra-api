@@ -22,6 +22,8 @@ class App < Sinatra::Base
   end
 
   get '/indofix_nomina_only' do
-    return Indofix.check('nomina', 'melakukan')
+    my_hash = Hash.new
+    my_hash['nomina_1'] = Indofix.check('nomina', 'melakukan')
+    return my_hash
   end
 end
