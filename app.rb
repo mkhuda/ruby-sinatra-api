@@ -25,6 +25,7 @@ class App < Sinatra::Base
     my_hash = Hash.new
     my_hash['nomina_1'] = Indofix.check('nomina', 'melakukan')
     my_hash['nomina_2'] = Indofix.check('nomina', 'menjanjikan')
+    my_hash['nomina_3'] = Indofix.check('nomina', 'meragukan')
     return my_hash
   end
 end
