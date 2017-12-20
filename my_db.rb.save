@@ -1,0 +1,16 @@
+require "mysql2"
+class MyDatabase
+ 
+  def initialize
+	client = Mysql2::Client.new(:host => "localhost", :username => "root", :password => "muhammad")
+  end
+
+  def postgre
+  	return @jonru
+  end
+
+  def mysql
+	return client
+  end
+
+end
