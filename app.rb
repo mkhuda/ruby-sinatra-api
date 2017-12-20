@@ -1,5 +1,6 @@
 require "sinatra"
 require_relative "my_db"
+require_relative "notification"
 
 class App < Sinatra::Base
 	get '/' do
@@ -7,8 +8,11 @@ class App < Sinatra::Base
 	end
 
 	get '/show_komedian' do
-		content_type :json
-		@database = MyDatabase.new
-		return @database.select_all_komedian
+		@noti = Notification.new
+		return @noti
 	end
+
+  get '/sinatra_sample' do
+    return "Hello sinatra sample"
+  end
 end
