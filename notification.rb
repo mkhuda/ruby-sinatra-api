@@ -10,6 +10,4 @@ class Notification
     def markAsRead
     end
     
-    def status
-    end
 end
