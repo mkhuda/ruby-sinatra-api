@@ -1,8 +1,8 @@
 class Notification
     
   def initialize
-        @receiver = ''
-        @isRead = false
+    @receiver = ''
+    @isRead = false
   end
 
 end
