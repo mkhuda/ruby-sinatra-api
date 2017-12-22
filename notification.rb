@@ -3,7 +3,4 @@ class Notification
         @receiver = ''
         @isRead = false
     end
-    
-    def validReceiver
-    end
 end
