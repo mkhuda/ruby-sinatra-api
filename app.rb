@@ -1,4 +1,5 @@
 require "sinatra"
+require "indofix"
 require_relative "my_db"
 require_relative "notification"
 
