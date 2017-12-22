@@ -6,7 +6,4 @@ class Notification
     
     def validReceiver
     end
-    
-    def markAsRead
-    end
 end
