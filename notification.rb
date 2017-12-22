@@ -9,5 +9,4 @@ class Notification
     
     def markAsRead
     end
-    
 end
