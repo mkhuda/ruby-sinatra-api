@@ -18,6 +18,6 @@ class App < Sinatra::Base
   end
 
   get '/indofix_sample' do
-    return "sample indofix"
+    return Indofix.check('nomina', 'menggemaskan')
   end
 end
