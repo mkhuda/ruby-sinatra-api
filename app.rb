@@ -16,4 +16,8 @@ class App < Sinatra::Base
   get '/sinatra_sample' do
     return "Hello sinatra sample"
   end
+
+  get '/indofix_sample' do
+    return "sample indofix"
+  end
 end
