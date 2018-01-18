@@ -31,6 +31,7 @@ class App < Sinatra::Base
 
   get '/indofix_verba_only' do
     verba_hash = Hash.new
+    verba_hash['verba_1'] = Indofix.check('nomina', 'melakukan')
     return 'test verba'
   end
 end
