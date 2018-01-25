@@ -4,7 +4,8 @@ require_relative "my_db"
 require_relative "notification"
 
 class App < Sinatra::Base
-	get '/' do
+	
+  get '/' do
 		return "Hello from Sinatra.rb"
 	end
 
@@ -34,4 +35,5 @@ class App < Sinatra::Base
     verba_hash['verba_1'] = Indofix.check('verba', 'andaikan')
     return verba_hash
   end
+
 end
