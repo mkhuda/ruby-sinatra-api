@@ -37,7 +37,7 @@ class App < Sinatra::Base
   end
 
   get '/indofix_kpst_only' do
-    verba_hash = Hash.new 
+    kpst_hash = Hash.new 
     verba_hash['verba_1'] = Indofix.check('verba', 'andaikan')
     return verba_hash 
   end
