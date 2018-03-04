@@ -14,10 +14,6 @@ class App < Sinatra::Base
 		return @noti
 	end
 
-  get '/sinatra_sample' do
-    return "Hello sinatra sample"
-  end
-
   get '/indofix_sample' do
     return Indofix.check('nomina', 'menggemaskan')
   end
