@@ -36,6 +36,7 @@ class App < Sinatra::Base
     kpst_hash = Hash.new 
     verba_hash['verba_1'] = Indofix.check('verba', 'andaikan')
     verba_hash['verba_2'] = Indofix.check('verba', 'menjalani')
+    verba_hash['verba_3'] = Indofix.check('verba', 'kerjakanlah')
     return verba_hash 
   end
 
