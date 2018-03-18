@@ -41,4 +41,8 @@ class App < Sinatra::Base
     return kpst_hash 
   end
 
+  get '/indofix_other_only' do
+    return 'other indofix'
+  end
+
 end
