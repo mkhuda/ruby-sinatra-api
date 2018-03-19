@@ -42,6 +42,7 @@ class App < Sinatra::Base
   end
 
   get '/indofix_other_only' do
+    other_hash = Hash.new
     return 'other indofix'
   end
 
