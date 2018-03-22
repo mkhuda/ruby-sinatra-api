@@ -4,3 +4,4 @@ gem 'sinatra'
 gem 'mysql2'
 
 gem 'indofix'
+gem 'json'
