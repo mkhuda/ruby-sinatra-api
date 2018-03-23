@@ -1,6 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    indofix (0.3.0)
+      verbal_expressions (~> 0.1.5)
+    json (2.1.0)
     mustermann (1.0.1)
     mysql2 (0.4.9)
     rack (2.0.3)
@@ -12,13 +15,16 @@ GEM
       rack-protection (= 2.0.0)
       tilt (~> 2.0)
     tilt (2.0.8)
+    verbal_expressions (0.1.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  indofix
+  json
   mysql2
   sinatra
 
 BUNDLED WITH
-   1.15.1
+   1.16.1
