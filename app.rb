@@ -33,7 +33,7 @@ class App < Sinatra::Base
     verba_hash['verba_1'] = Indofix.check('verba', 'andaikan')
     verba_hash['verba_2'] = Indofix.check('verba', 'menjalani')
     verba_hash['verba_3'] = Indofix.check('verba', 'kerjakanlah')
-    return verba_hash
+    return JSON(verba_hash)
   end
 
   get '/indofix_kpst_only' do
