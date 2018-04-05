@@ -44,7 +44,7 @@ class App < Sinatra::Base
 
   get '/indofix_other_only' do
     other_hash = Hash.new
-    return 'other indofix'
+    other_hash['other_1'] = Indofix.check('other', 'berjalan')
   end
 
 end
